@@ -2,20 +2,27 @@
 Simple AllKeyShop scraper that allows you to search for a specific game and the top 25 sellers on xbox, playstation, nintendo or pc.
 
 Available endpoints:
-  - /scrape/:title
-  - /scrape/top/:platform
+  - /allkeyshop/search/:title
+  - /allkeyshop/top/:platform
+  - /isthereanydeal/search/:title
 
-When searching for a game, it will return:
-  - Full game's title
-  - Score
-  - Amount of users that have reviewed the game
-  - Prices of all available options
-  - Check for coupon availability
-  - Coupon code if available
-  - Stores of all available options
+When searching for a game on AllKeyShop.
+/allkeyshop/search/:title will return:
+  - Game's title
+  - Details such as release year and genre
+  - Price
+  - Image
   
-When searching for the top 25 sellers, a platform must be included. These must be xbox, playstation, nintendo or pc. It will return:
-  - Name of the platform chosen
-  - All 25 titles specific to your chosen platform
-  - All 25 prices specific to your chosen platform
-  - All 25 stores specific to your chosen platform
+When searching for a game on IsThereAnyDeal.
+/isthereanydeal/search/:title will return:
+  - Game's title
+  - Current price
+  - Store where the current price is available
+  - Historical low price
+  - Store where the historical low price was available
+  
+When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc. 
+/allkeyshop/top/:platform will return:
+  - Game's title
+  - Price
+  - Store
