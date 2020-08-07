@@ -20,6 +20,7 @@ npm install
   - /isthereanydeal/search/:title
   
 <p align="center">When looking up details for a specific game on AllKeyShop.</p>
+
 ```sh
 /allkeyshop/:title
 ```
@@ -35,6 +36,7 @@ Returns:
   - URL to the store in question
 
 <p align="center">When searching for a game on AllKeyShop.</p>
+
 ```sh
 /allkeyshop/search/:title
 ```
@@ -45,6 +47,7 @@ Returns:
   - Image
   
 <p align="center">When searching for a game on IsThereAnyDeal.</p>
+
 ```sh
 /isthereanydeal/search/:title 
 ```
@@ -56,6 +59,7 @@ Returns:
   - Store where the historical low price was available
   
 <p align="center">When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.</p>
+
 ```sh
 /allkeyshop/top/:platform
 ```
