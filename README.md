@@ -26,6 +26,7 @@ node server.js
   - /allkeyshop/:title
   - /allkeyshop/search/:title
   - /allkeyshop/top/:platform
+  
  IsThereAnyDeal
   - /isthereanydeal/:title
   - /isthereanydeal/search/:title
