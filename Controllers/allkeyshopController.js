@@ -21,7 +21,7 @@ module.exports = {
                         "title": itens_titles,
                         "details": itens_details,
                         "price": itens_prices,
-                        "background": itens_img
+                        "image": itens_img
                     }
                 });	
 
@@ -80,7 +80,7 @@ module.exports = {
                         "title": $('.game-desc .content-box-title .text-truncate span').first().text().trim(),
                         "score": parseFloat($('.game__sidebar-wrapper .aks-follow .game-aside-button p .hint span').first().text().trim()),
                         "reviewsCount": parseInt($('.game__sidebar-wrapper .aks-follow .game-aside-button p .hint span').last().text().trim()),
-                        "results": results
+                        "options": results
                     })
                 }).catch(error => console.log(error));
             }).catch(error => console.log(error));
