@@ -1,5 +1,5 @@
 # AllKeyShop/IsThereAnyDeal-Scraper
-Simple AKS/ITAD.
+Simple AKS/ITAD Scraper.
 
 # Table of Contents
 
