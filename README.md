@@ -8,8 +8,9 @@ Simple AKS/ITAD.
   - /isthereanydeal/search/:title
   
 # When looking up details for a specific game on AllKeyShop.
-
-    /allkeyshop/:title
+```sh
+/allkeyshop/:title
+```
 Returns:
   - Game's title
   - Score
@@ -22,8 +23,9 @@ Returns:
   - URL to the store in question
 
 # When searching for a game on AllKeyShop.
-
-    /allkeyshop/search/:title
+```sh
+/allkeyshop/search/:title
+```
 Returns:
   - Game's title
   - Details such as release year and genre
@@ -31,8 +33,9 @@ Returns:
   - Image
   
 # When searching for a game on IsThereAnyDeal.
-
-    /isthereanydeal/search/:title 
+```sh
+/isthereanydeal/search/:title 
+```
 Returns:
   - Game's title
   - Current price
@@ -41,8 +44,9 @@ Returns:
   - Store where the historical low price was available
   
 # When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.
-    
-    /allkeyshop/top/:platform
+```sh
+/allkeyshop/top/:platform
+```
 Returns:
   - Game's title
   - Price
