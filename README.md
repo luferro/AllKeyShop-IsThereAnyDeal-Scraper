@@ -1,13 +1,25 @@
 # AllKeyShop/IsThereAnyDeal-Scraper
 Simple AKS/ITAD.
 
-# Available endpoints:
+# Table of Contents
+
+  - [Installation](#installation)
+  - [Endpoints](#endpoints)
+
+# Installation
+
+To install all the necessary dependencies
+```sh
+npm install
+```
+
+# Endpoints:
   - /allkeyshop/:title
   - /allkeyshop/search/:title
   - /allkeyshop/top/:platform
   - /isthereanydeal/search/:title
   
-# When looking up details for a specific game on AllKeyShop.
+### When looking up details for a specific game on AllKeyShop.
 ```sh
 /allkeyshop/:title
 ```
@@ -22,7 +34,7 @@ Returns:
   - Coupon code if available
   - URL to the store in question
 
-# When searching for a game on AllKeyShop.
+### When searching for a game on AllKeyShop.
 ```sh
 /allkeyshop/search/:title
 ```
@@ -32,7 +44,7 @@ Returns:
   - Price
   - Image
   
-# When searching for a game on IsThereAnyDeal.
+### When searching for a game on IsThereAnyDeal.
 ```sh
 /isthereanydeal/search/:title 
 ```
@@ -43,7 +55,7 @@ Returns:
   - Historical low price
   - Store where the historical low price was available
   
-# When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.
+### When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.
 ```sh
 /allkeyshop/top/:platform
 ```
