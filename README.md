@@ -2,9 +2,24 @@
 Simple AKS/ITAD.
 
 Available endpoints:
+  - /allkeyshop/:title
   - /allkeyshop/search/:title
   - /allkeyshop/top/:platform
   - /isthereanydeal/search/:title
+  
+  When looking up details for a specific game on AllKeyShop.
+
+    /allkeyshop/:title
+Returns:
+  - Game's title
+  - Score
+  - Amount of reviews
+  - Stores available on
+  - Platform aswell as region
+  - Edition
+  - Prices
+  - Coupon code if available
+  - URL to the store in question
 
 When searching for a game on AllKeyShop.
 
