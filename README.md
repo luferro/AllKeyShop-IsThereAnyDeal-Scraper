@@ -4,6 +4,7 @@ Simple AKS/ITAD.
 # Table of Contents
 
   - [Installation](#installation)
+  - [Running](#running)
   - [Endpoints](#endpoints)
 
 # Installation
@@ -13,10 +14,20 @@ To install all the necessary dependencies
 npm install
 ```
 
+# Running
+
+To run it
+```sh
+node server.js
+```
+
 # Endpoints:
+ AllKeyShop
   - /allkeyshop/:title
   - /allkeyshop/search/:title
   - /allkeyshop/top/:platform
+ IsThereAnyDeal
+  - /isthereanydeal/:title
   - /isthereanydeal/search/:title
   
 #### When looking up details for a specific game on AllKeyShop.
@@ -28,8 +39,8 @@ Returns:
   - Game's title
   - Score
   - Amount of reviews
-  - Stores available on
-  - Platform aswell as region
+  - Stores
+  - Platforms
   - Edition
   - Prices
   - Coupon code if available
@@ -54,8 +65,8 @@ Returns:
 Returns:
   - Game's title
   - Current price
-  - Store where the current price is available
-  - Historical low price
+  - Store where the current price was available
+  - Historical lowest price
   - Store where the historical low price was available
   
 #### When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.
@@ -67,3 +78,21 @@ Returns:
   - Game's title
   - Price
   - Store
+
+#### When looking up details for a specific game on AllKeyShop.
+
+```sh
+/isthereanydeal/:title
+```
+Returns:
+  - Rank
+  - Game's title
+  - Release date
+  - Description
+  - Image
+  - Stores
+  - Platforms
+  - Price cut %
+  - Current price
+  - Historical lowest price
+  - Regular price
