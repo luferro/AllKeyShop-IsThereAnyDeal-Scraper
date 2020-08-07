@@ -1,7 +1,7 @@
-<h1 align="center>AllKeyShop/IsThereAnyDeal-Scraper</h1>
+# AllKeyShop/IsThereAnyDeal-Scraper
 Simple AKS/ITAD.
 
-#Available endpoints:
+# Available endpoints:
   - /allkeyshop/:title
   - /allkeyshop/search/:title
   - /allkeyshop/top/:platform
@@ -21,7 +21,7 @@ Returns:
   - Coupon code if available
   - URL to the store in question
 
-#When searching for a game on AllKeyShop.
+# When searching for a game on AllKeyShop.
 
     /allkeyshop/search/:title
 Returns:
@@ -30,7 +30,7 @@ Returns:
   - Price
   - Image
   
-#When searching for a game on IsThereAnyDeal.
+# When searching for a game on IsThereAnyDeal.
 
     /isthereanydeal/search/:title 
 Returns:
@@ -40,7 +40,7 @@ Returns:
   - Historical low price
   - Store where the historical low price was available
   
-#When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.
+# When searching for the top 25 sellers on AllKeyShop, a platform must be included. These must be xbox, playstation, nintendo or pc.
     
     /allkeyshop/top/:platform
 Returns:
