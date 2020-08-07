@@ -1,5 +1,5 @@
 # AllKeyShop/IsThereAnyDeal-Scraper
-Simple AKS/ITAD scraper that allows you to search for a specific game and the top 25 sellers on xbox, playstation, nintendo or pc.
+Simple AKS/ITAD.
 
 Available endpoints:
   - /allkeyshop/search/:title
