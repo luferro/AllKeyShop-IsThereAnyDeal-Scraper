@@ -7,7 +7,7 @@ Simple AKS/ITAD.
   - /allkeyshop/top/:platform
   - /isthereanydeal/search/:title
   
-  When looking up details for a specific game on AllKeyShop.
+# When looking up details for a specific game on AllKeyShop.
 
     /allkeyshop/:title
 Returns:
