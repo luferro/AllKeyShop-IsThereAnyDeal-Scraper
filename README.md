@@ -14,7 +14,7 @@ To install all the necessary dependencies
 npm install
 ```
 
-# Running
+# Usage
 
 To run it
 ```sh
@@ -79,7 +79,7 @@ Returns:
   - Price
   - Store
 
-#### When looking up details for a specific game on AllKeyShop.
+#### When looking up details for a specific game on IsThereAnyDeal.
 
 ```sh
 /isthereanydeal/:title
